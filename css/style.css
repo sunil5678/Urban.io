@@ -1,0 +1,299 @@
+body{
+    padding:0px;
+}
+
+.big-wrapper{
+    background-image: url("../img/banner.png");
+    width:100vw;
+    height:100vh;
+    background-size:cover;
+}
+
+/* Navigation-start */
+
+#my-navigation{
+    background:none;
+    border:0;
+}
+
+#my-navigation .navbar-header{
+    float:none;
+}
+
+
+
+#my-navigation .navbar-toggle{
+    display:block;
+    border:0;
+}
+
+#my-navigation .navbar-toggle:hover{
+    background:none;
+    cursor:pointer;
+}
+
+#my-navigation .icon-bar-left{
+    float:left;
+}
+
+#my-navigation  .icon-right{
+    float:right;
+    position:relative;
+    top:-3px;
+    left:10px;
+    color: #fff;
+}
+
+#my-navigation .icon-bar{
+    background-color: #fff;
+}
+
+
+#my-navigation a{
+    color:#fff;
+    text-decoration: none;
+}
+
+#my-navigation .my-collapse{
+    float:left;
+}
+
+/* Navigation-end */
+
+.banner-text{
+    width:50%;
+    text-align:center;
+    margin:0 auto;
+    margin-top:250px;
+}
+
+.banner-text h1{
+    font-size:40px;
+    color:#fff;
+}
+
+ p{
+    color:grey;
+    line-height: 25px;
+}
+
+.my-button{
+    background-color: #3498db;
+    font-size:12px;
+    color:#fff;
+    width:100px;
+    height:30px;
+    border:0px;
+    border-radius:2px;
+    margin-bottom: 10px;
+}
+
+/* middle part start */
+
+/* part-1 start */
+
+.part-1{
+    padding:70px 0;
+}
+
+.part-1 .left, .part-2 .left{
+    padding:20px;
+    margin-left:20px;
+}
+
+.part-1 img, .part-2 img{
+    width:100%;
+    border-radius:50%;
+    
+}
+
+/* part-1 end */
+
+/* part-2 start */
+
+.part-2{
+    background-color: #3498db;
+    padding:70px 0;
+    padding-left: 50px;
+}
+
+.part-2 button{
+    background-color:#fff;
+    font-size:12px;
+    color: #3498db;
+    width:100px;
+    height:30px;
+    border:0px;
+    border-radius:2px;
+}
+
+/* part-2 end */
+
+/* three section start */
+
+.three-section{
+     padding:30px;
+     background-color:#fafafa;
+    
+}
+
+.three-section p{
+    margin-bottom:30px;
+}
+
+.three-img{
+    padding: 50px;
+}
+
+.three-section img{
+    border-radius:50%;
+   
+}
+
+/* footer start */
+
+.footer{
+    padding:50px 0;
+}
+
+.footer .fa{
+    font-size:25px;
+    padding:8px;
+    margin-left:10px;
+    color: grey;
+    border-style:double;
+    border:1px solid grey;
+    border-radius:50%;
+    margin-bottom:10px;
+}
+
+/* footer end */
+
+/* media queiry start */
+
+@media only screen and (max-width:1100px){
+    body{
+        padding:0px;
+    }
+
+    
+.big-wrapper{
+    background-image: url("../img/banner.png");
+   margin:0px;
+   padding: 0px;
+}
+
+
+    #my-navigation .icon-bar-left{
+        float:left;
+       
+    }
+    
+    #my-navigation  .icon-right{
+        font-size:14px;
+    }
+    
+    #my-navigation .icon-bar{
+        font-size:12px;
+    }
+
+
+    .banner-text{
+        width:100%;
+        text-align:center;
+        margin:0 auto;
+        margin-top:100px;
+    }
+
+    .banner-text h1{
+        font-size:25px;
+        color:#fff;
+    }
+    
+     p{
+        color:grey;
+        line-height: 15px;
+        font-size: 12px;
+    }
+
+    .my-button{
+        font-size:10px;
+        width:80px;
+        height:25px;
+        margin-top: 10px;
+        margin-bottom: 10px;
+    }
+
+    .part-1{
+        padding:40px 0;
+        width:100%;
+    }
+    
+    .part-1 .left, .part-2 .left{
+        padding:10px;
+        margin-left:0px;
+    }
+
+    .part-2{
+        padding:40px 0;
+        padding-left: 0px;
+    }
+    
+    .part-2 button{
+        font-size:10px;
+        width:80px;
+        height:25px;
+    }
+
+    .three-section{
+        padding:20px;
+        width:100%;
+   }
+
+   .three-section h3{
+    font-size:18px;
+   }
+   
+   .three-section p{
+       margin-bottom:20px;
+       font-size:8px;
+   }
+   
+   .three-img{
+       padding:0px;
+      
+   }
+   
+   .three-section img{
+       border-radius:50%;
+       width:100%;
+      
+   }
+
+   .footer{
+    padding:30px 0;
+    width:100%;
+}
+
+.footer .fa{
+    font-size:18px;
+    margin-left:8px;
+    border:1px solid grey;
+}
+
+.footer p{
+    font-size:7px;
+}
+   
+    
+    
+   
+    
+    
+   
+}
+
+
+
+
+
